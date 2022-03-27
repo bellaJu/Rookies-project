@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration:none;
+	cursor:pointer;
+}
+
+/*font-family*/
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+div#wrap{width:1920px;height:auto;margin:0 auto;background:#d0b2f7;font-family: 'Cafe24SsurroundAir';color:#091353;}
+header{width:100%;padding:10px 0;}
+header > nav{width:90%;height:auto;background:#fff;margin:0 auto;padding:15px;box-sizing:border-box;}
+header > nav > ul{overflow:hidden;margin-left:848px;padding:5px 0;}
+header > nav > ul > li{float:left;width:200px;background:#F0ECE3;text-align:center;margin-right:15px;height:40px;line-height:40px;box-shadow:2px 2px 4px #999;}
+header > nav > ul > li:last-child{margin-right:0;}
+header > nav > ul > li > a{display:block;width:100%;height:100%;font-weight:600;color:#091353;}
+
+section{width:100%;padding:10px 0;}
+section .sectionBg{width:90%;height:auto;background:#fff;margin:0 auto;padding:15px;box-sizing:border-box;}
+
+.sectionBg h2{font-size:35px;font-weight:800;text-align:center;margin-top:30px;}
+.sectionBg p{font-size:15px;text-align:center;margin-top:15px;line-height:1.2;}
+.index_section_ul{width:375px;overflow:hidden;margin:0 auto;padding:15px;}
+.index_section_ul > li{float:left;width:180px;height:180px;background:#716F81;text-align:center;line-height:180px;margin-right:15px;box-shadow:2px 2px 4px #999;}
+.index_section_ul > li:last-child{margin-right:0;}
+.index_section_ul > li > a{display:block;width:100%;height:100%;color:#fff;font-weight:800;font-size:25px;}
+.sectionBg img{width:80%;margin:15px auto;display:block;}
+
+.section_aboutme > div{width:80%;margin:0 auto;}
+.section_aboutme > div:nth-child(2) p{margin-top:0;}
+.section_aboutme > div:last-child{margin-bottom:30px;}
+.section_aboutme > div > h2{text-align:left;}
+.section_aboutme > div > p{text-align:left;margin-top:10px;}
+.section_aboutme > div > a{text-align:left;margin-top:10px;display:inline-block;}
+
+.section_photo > div{width:80%;margin:0 auto;overflow:hidden;margin:30px auto;}
+.section_photo > div > img{float:left;width:33%;border:10px solid #F0ECE3;margin:0 auto;}
+.section_photo > div > p{float:left;text-align:left;margin-left:30px;line-height:1.5;}
+hr{margin:0;}
+
+footer{width:100%;padding:10px 0;}
+footer > p{width:90%;height:auto;background:#fff;margin:0 auto;padding:15px;box-sizing:border-box;text-align:center;line-height:1.2;}
